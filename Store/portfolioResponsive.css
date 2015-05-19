@@ -273,7 +273,8 @@ margin-left: 0;
 	clear: none;
 	float: none;
 	margin-left: auto;
-	background-color: #020202;
+	background-color: #FFFDFD;
+	color: #FBF8F8;
 }
 /* Header & HERO styles*/
 .heroHeader {
@@ -311,10 +312,11 @@ margin-left: 0;
 
 /* Text & content area styles*/
 .textContainer {
-    padding-top:60px;
-    padding-bottom:30px;
-    clear: none;
-    margin-left: 1.6949%;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	clear: none;
+	margin-left: 1.6949%;
+	text-shadow: 4px 0px;
 }
 .secondarySection {
 	width: 49.1525%;
@@ -364,7 +366,6 @@ display: none;
 
 div#carousel {
 	perspective: 1200px;
-	background: #100000;
 	padding-top: 10%;
 	font-size: 0;
 	margin-bottom: 3rem;
@@ -395,7 +396,7 @@ figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
 figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
 figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
 div#carousel ~ span { 
-  color: #fff; 
+  color: #000; 
   margin: 5%; 
   display: inline-block; 
   text-decoration: none; 
@@ -405,6 +406,9 @@ div#carousel ~ span {
   margin-top: -6rem; 
   border-bottom: none; 
   line-height: 0; }
-div#carousel ~ span:hover { color: #fff; cursor: pointer; }
+div#carousel ~ span:hover {
+	color: #000000;
+	cursor: pointer;
+}
 
 }

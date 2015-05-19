@@ -23,6 +23,9 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
 	display: block;
 	text-align: center;
+	height: 60px;
+	background: FF0000;
+	color: 000000;
 }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
@@ -39,9 +42,17 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: serif; color: #222; }
+html, button, input, select, textarea {
+	font-family: serif;
+	color: #000000;
+}
 
-body { margin: 0; font-size: 1em; line-height: 1.4; }
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+	background-color: #FCF8F9;
+}
 
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
